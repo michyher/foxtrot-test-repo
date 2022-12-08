@@ -24,4 +24,73 @@
     - git push origin <branch-name>
 
 
-    
+    -----
+
+
+- git checkout  -b (name)
+- touch (file name) --> we're adding a file .md
+- code .
+- add some text to the file 
+    - got status 
+    - git add .
+    - git commit -m "Name of File"
+    - git push origin (name of branch)
+    - git status
+
+    ---------
+- git branch
+- git checkout main
+- git fetch prigin (brnach name)
+- git checkout (name of file?)
+- git pull origin (name of file?)
+- code .
+- after you check it works
+- git status
+- git add .
+- git commit -m "message"
+- git push origin (name of file)
+
+
+
+
+---------New notes
+starting new challenge :
+- git clone (Repo URL)
+- git checkout -b (new branch name)
+- touch (new file name)
+-
+
+
+
+push to cloud:
+- git status
+- git add Name of File 
+- git status (shoukd be green)
+- git commit -m "your message"
+- git push origin branch name 
+
+
+----------------------------
+Assesment:
+BEGINNING:
+-copy repo from link
+- ls
+- cd (file name)
+- file name: Week-(#)-assessment-(frist name)(last name)
+
+DONE:
+- git add . 
+-git status (green)
+- git commit -m
+- git push origin (name of file)
+- do not merge until you have been reviewed (on github)
+- Once it is reviewed then you can merge
+- Do not push to main
+
+DELETE BRANCH
+- git status
+- git checkout main
+- git pull origin main
+- git branch 
+- git branch -d (name of branch)
+- git branch
